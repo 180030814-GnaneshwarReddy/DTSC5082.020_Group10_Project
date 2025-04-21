@@ -5,12 +5,20 @@ Welcome to the official repository for Group 10's project in the **DTSC5082.020 
 
 ---
 
-## 📁 Repository Structure
+## Dataset
+
+We used the following datasets for model training and evaluation:
+
+### MIMIC-IV-Note (PhysioNet)
+- **Domain**: Clinical
+- **Description**: De-identified free-text clinical notes, covering radiology reports, discharge summaries, progress notes, etc.
+- **Access**: https://physionet.org/content/mimic-iv-note/2.2/![image](https://github.com/user-attachments/assets/04335ec7-da85-4ce5-9a07-c407f585f833)
+- **Size**: ~330,000+ notes
 
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 The objective of this project is to:
 - Compare summarization capabilities of various LLMs (e.g., PEGASUS, T5, DeepSeek, LLaMA3)
@@ -19,20 +27,15 @@ The objective of this project is to:
 
 ---
 
-## 🧪 Models Used
-Model Name | Source/Platform | Domain
-google/pegasus-cnn_dailymail | Hugging Face Transformers | News Summarization
-t5-base | Hugging Face Transformers | General NLP
-facebook/bart-large-cnn | Hugging Face Transformers | News Summarization
-Meta LLaMA 3–8B | Ollama | General-purpose
-DeepSeek R1–32B | Ollama | General-purpose
+## Models Used
 
 | Model Name           | Source/Platform       | Domain         |
 |----------------------|------------------------|----------------|
-| `google/pegasus-cnn_dailymail` | Hugging Face Transformers | News Summarization |
-| `t5-base`            | Hugging Face Transformers | General NLP     |
-| `Meta LLaMA 3–8B`    | Ollama                 | General-purpose |
-| `DeepSeek R1–32B`    | Ollama                 | General-purpose |
+|'facebook/bart-large' | Hugging Face Transformers | News Summarization |
+| 'google/pegasus-cnn_dailymail' | Hugging Face Transformers | News Summarization |
+| 't5-base'            | Hugging Face Transformers | General NLP     |
+| 'Meta LLaMA 3–8B'    | Ollama                 | General-purpose |
+| 'DeepSeek R1–32B'    | Ollama                 | General-purpose |
 
 ---
 
