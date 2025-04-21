@@ -20,6 +20,12 @@ The objective of this project is to:
 ---
 
 ## 🧪 Models Used
+Model Name | Source/Platform | Domain
+google/pegasus-cnn_dailymail | Hugging Face Transformers | News Summarization
+t5-base | Hugging Face Transformers | General NLP
+facebook/bart-large-cnn | Hugging Face Transformers | News Summarization
+Meta LLaMA 3–8B | Ollama | General-purpose
+DeepSeek R1–32B | Ollama | General-purpose
 
 | Model Name           | Source/Platform       | Domain         |
 |----------------------|------------------------|----------------|
