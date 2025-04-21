@@ -3,6 +3,14 @@
 Welcome to the official repository for Group 10's project in the **DTSC5082.020 - Seminar in Research and Research Methodology** course. This project focuses on the evaluation of **Large Language Models (LLMs)** for **clinical text summarization** using models like BART, PEGASUS, T5, DeepSeek, and LLaMA 3 on **MIMIC-IV-Note** datasets.
 
 ---
+## Project Overview
+
+The objective of this project is to:
+- Compare summarization capabilities of various LLMs (Bart, PEGASUS, T5, DeepSeek, LLaMA3)
+- Apply models to **MIMIC-IV-Note** clinical dataset
+- Evaluate summaries on multiple quality metrics: **ROUGE**, **BLEU**, **BERTScore**
+
+---
 
 ## Dataset
 
@@ -25,14 +33,6 @@ https://drive.google.com/drive/folders/168A2ER--YqoJe9qqQQVmA36rr_gV-Mbf?dmr=1&e
 
 ---
 
-## Project Overview
-
-The objective of this project is to:
-- Compare summarization capabilities of various LLMs (Bart, PEGASUS, T5, DeepSeek, LLaMA3)
-- Apply models to **MIMIC-IV-Note** clinical dataset
-- Evaluate summaries on multiple quality metrics: **ROUGE**, **BLEU**, **BERTScore**
-
----
 
 ## Models Used
 
